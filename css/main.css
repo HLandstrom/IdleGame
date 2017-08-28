@@ -1,0 +1,25 @@
+#stats {
+  border: 1px solid black;
+}
+#stats button{
+  width: 100%;
+}
+#balance{
+  float: right;
+}
+#t1{
+  float: right;
+}
+#t2{
+  float: right;
+}
+#t3{
+  float: right;
+}
+#t4{
+  float: right;
+}
+#stats button{
+  margin-left: auto;
+  margin-right: auto;
+}

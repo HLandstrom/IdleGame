@@ -1,12 +1,29 @@
+<!doctype html>
 <html>
   <head>
     <title>
       Basic idle Game
     </title>
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js"></script>
   </head>
+
   <body>
+    <div class="container">
+      <h1>Unnamed Idle Game</h1>
+      <div class="row">
+        <div class="col-md-3" id="stats">
 
+          <p>Balance <span id="balance">test</span></p>
+          <button type="button" onclick="buyBuilding()" id="buyT1">T1 <span id="t1">t1</span></button>
+          <button>T2 <span id="t2">t2</span></button>
+          <button>T3 <span id="t3">t3</span></button>
+          <button>T4 <span id="t4">t4</span></button>
 
+        </div>
+        <button type="button" name="stop" id="stop" onclick="stop()">stop</button>
+      </div>
+    </div>
   </body>
 </html>
